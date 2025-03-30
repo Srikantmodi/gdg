@@ -1,0 +1,31 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_health
+  - ask_agriculture
+  - ask_education
+  - ask_employment
+  - iamabot
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_ask_health:
+    - text: "Here are some health-related government schemes: Ayushman Bharat, PMJAY, etc."
+
+  utter_ask_agriculture:
+    - text: "These are agriculture-related schemes: PM Kisan, Soil Health Card, etc."
+
+  utter_goodbye:
+    - text: "Bye! Have a great day!"
+ 
+  utter_iamabot:
+    - text: "I am a chatbot built using Rasa. How can I assist you today?"
+  utter_ask_employment:
+    - text: "Here are some employment-related schemes: MGNREGA, PMEGP, etc."
+  
+  utter_ask_education:
+    - text: "There are several government education schemes available. Would you like details on a specific one?"
+  
